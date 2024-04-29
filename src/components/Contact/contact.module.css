@@ -2,8 +2,8 @@
     display: flex;
     padding: 10px;
     justify-content: space-between;
+    width: 260px;
     align-items: center;
-    width: 220px;
     border: 1px solid black;
     border-radius: 7px;
 }

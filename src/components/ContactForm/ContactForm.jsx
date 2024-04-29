@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import { useId } from 'react';
 import css from './ContactForm.module.css';
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contactsSlice.js';
+import { addContact } from '../../redux/contactsOps.js';
 
 const FeedbackSchema = Yup.object().shape({
   contactName: Yup.string()
